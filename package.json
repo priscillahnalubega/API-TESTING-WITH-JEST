@@ -1,0 +1,27 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "simple api for testing with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscillahnalubega/API-TESTING-WITH-JEST.git"
+  },
+  "keywords": [
+    "API",
+    "TESTING",
+    "JEST"
+  ],
+  "author": "PRISCILLAH NALUBEGA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscillahnalubega/API-TESTING-WITH-JEST/issues"
+  },
+  "homepage": "https://github.com/priscillahnalubega/API-TESTING-WITH-JEST#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
