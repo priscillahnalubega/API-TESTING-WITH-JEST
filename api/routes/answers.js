@@ -13,24 +13,8 @@ router.post('/', (req, res, next)=>{
     });
 });
 
-router.get('/:answerid', (req, res, next)=>{
-    res.status(200).json({
-        message:'A specific answer',
-        answerid:req.params.answerid
-    });
-});
 
 
-router.patch('/:answerid', (req, res, nesxt)=>{
-    res.status(200).json({
-        message:'answer has been modified'
-    });
-});
 
-router.delete('/:answerid', (req, res, nesxt)=>{
-    res.status(200).json({
-        message:'answer has been deleted'
-    });
-});
 
 module.exports = router;
