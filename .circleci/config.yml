@@ -14,5 +14,9 @@ jobs:
 workflows:
     build-and-test:
       jobs:
+<<<<<<< HEAD
         - build-and-test
 
+=======
+        - build-and-test
+>>>>>>> 14ca41fd0b9435816912bcea6f1328240ce79acc
